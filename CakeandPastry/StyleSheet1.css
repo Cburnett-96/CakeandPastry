@@ -1,0 +1,12 @@
+﻿body {
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+        max-width: 991px;
+    }
+
+    .myfootershare {
+        display: none
+    }
+}

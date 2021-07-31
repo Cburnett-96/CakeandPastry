@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CakeandPastry.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Cake360</title>
+
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../CSS/bootstrap.css"/>
+    <link rel="stylesheet" href="../CSS/body.css"/>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <form runat="server">
+        <!-- for navigation -->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="../">CakeandPastry360</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbarColor01" >
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" runat="server" id="home" href="Default.aspx">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                            <a class="nav-link" runat="server" id="shophome" href="Shop Home.aspx" visible="false">Home</a>
+                            <a class="nav-link" runat="server" id="adminhome" href="Admin Home.aspx" visible="false">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Policy.aspx">Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Shop.aspx">Shops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.aspx">About</a>
+                        </li>
+                        <li id="loginsignup" class="nav-item" runat="server">
+                    <asp:Label ID="Label3" runat="server" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >Login or Signup</asp:Label>
+                    <div class="dropdown-menu">
+                    <asp:LinkButton class="dropdown-item" ID="linkbtnlogin" runat="server" OnClick="linkbtnlogin_Click">Customer</asp:LinkButton>
+                    <asp:LinkButton class="dropdown-item" ID="linkbtnshop" runat="server" OnClick="linkbtnshop_Click">Shop Owner</asp:LinkButton>
+                </div>
+                        </li>
+                    </ul>
+                    <asp:Label ID="lblGreeting" runat="server"></asp:Label>
+                    <asp:LinkButton class="btn nav-link" ID="linkbtnorderstatus" runat="server" Visible="false" OnClick="linkbtnorderstatus_Click">Order Status</asp:LinkButton>
+                    <asp:LinkButton class="btn nav-link" ID="linkbtnlogout" runat="server" Visible="false" OnClick="linkbtnlogout_Click">Logout</asp:LinkButton>
+                    </div>
+            </nav>
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer>
+        </footer>
+    </form>
+    <script src="../JS/jquery.min.js"></script>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/custom.js"></script>
+</body>
+</html>

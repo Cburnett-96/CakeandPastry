@@ -1,0 +1,103 @@
+
+
+body,h1
+{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.about{
+	color: yellow;
+    text-align: center;
+    font-size: 50px;
+}
+.content{
+	color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-container h1
+{
+	font-size:100px;
+	color: white;
+	
+}
+
+.text-container
+{
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: -6%;
+}
+
+.container .box
+{
+	position:relative;
+	width: 210px;
+	height: 270px;
+	background-image: url(../images/pink.jpg);
+	margin: 4px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .imgBox img
+{
+	height: 270px;
+	width: 240px;
+	transition: all .5s ease;
+}
+
+.container .box:hover .imgBox img
+{
+	transform: scale(.9,.9);
+}
+
+.container .box .details
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.6);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+.container .box:hover .details
+{
+	transform: scaleY(1);
+	
+}
+
+.container .box .details .content
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	
+	padding: 5px;
+	color: #fff;
+}
+a
+{
+	text-decoration: none;
+	color: yellow;
+}
+h2 {
+	color: lightcoral;
+}
+h3{
+	color: lightcoral;
+}
+

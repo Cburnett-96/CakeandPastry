@@ -1,0 +1,180 @@
+body{
+
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgb(228, 222, 222);
+	font-family:helvitica, arial, sans-serif;
+	font-size:15px;
+	
+	}
+	nav{
+		background-color:green;
+					}
+	li a{
+		color:rgb(17, 9, 9);
+					}	
+	li{
+	
+		margin:15px;
+		font-size:25px;
+		font-variant:small-caps;
+		font-weight: Bold;
+					}
+	
+	section{
+		background-color:rgb(120, 193, 173);
+		margin-top:10px;
+		padding:5px;
+					}
+	article{
+
+		background:url("../images/pink.jpg") no-repeat;
+		background-size:cover;
+		margin-top:5px;
+		padding:10px 15px;
+
+	
+					}	
+	.shop{
+		background-color:white;
+		margin-top:5px;
+		padding:10px 15px;
+		height: 400px;
+		 }
+	.shopmenu{
+			 list-style: none;
+			 text-align: center;
+			 font-weight: normal;
+		
+		 }
+	.header{
+		text-align: center;
+		 }
+		
+
+	
+		  
+	main{
+		width:640px;
+		float:left;
+		margin-bottom:10px;
+					}
+	aside{
+		background-color:pink;
+		width: 270px;
+		float:right;
+		padding: 20px;
+		margin-top: 10px;
+					}
+	footer{
+		clear:both;
+		background-color:red;
+		color:blue;
+		padding:5px 2opx
+		  }
+    p{
+		font-size: 20px;
+		  }
+
+.card-body img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%
+	
+}
+.shope{
+align-content: center;
+
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+
+	
+
+}
+
+.container .box .imgBox img
+{
+	height: 270px;
+	width: 240px;
+	transition: all .5s ease;
+}
+.container .box .details
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.6);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.container
+{
+	text-align: center;
+
+}
+.box{
+	display: inline-block;
+}
+.container .box
+{
+	position:relative;
+	width: 210px;
+	height: 270px;
+	background-image: url(../images/pink.jpg);
+	margin: 4px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.container .box .imgBox img
+{
+	height: 270px;
+	width: 240px;
+
+}
+
+
+
+.container .box .details
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.6);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+
+
+
+
+
+
+

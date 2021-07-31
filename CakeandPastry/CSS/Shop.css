@@ -1,0 +1,74 @@
+
+.container
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+footer 
+{
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+#footer p 
+{
+    margin: 10px 0;
+}
+
+#footer a 
+{
+	color: blue;
+    text-decoration: none;
+}  
+#name
+{
+	font-size: 80px;
+	margin-left: 180px;
+	font-family: Freestyle Script;
+	color: cyan;
+}
+
+/*navigation style  zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+.logo{
+    height: 30px;
+    display: table;
+    float: left;
+}
+.logo p{
+    padding-top: 4px;
+    margin-left: 10px;
+    color: #000000;
+    display: table-cell;height: 100%;
+    vertical-align: middle;
+    font-family: segoe ui;
+    font-size: 25px;
+    color: #ffffff;
+}
+.logo p span{
+    font-weight: bold;
+    color: #000000;
+}
+
