@@ -24,9 +24,13 @@ MODULE III: Admin
 On Admin module, we plan it to have a function of log-in
 admin,log-out, assigning a request location of the store and deleting a store that is requested to be deleted.
 
-Features and Capabilities
-#Can order cakes and pastries via PC and mobile website
-#Give the consumer an everyday trivia about the products and shops.
-#Every shop located at Siniloan,Laguna up to Infanta,Quezon can join or register their shop to boost their popularity.
-#Customer can sign in and log in everytime they want to make an order.
-#Can store data for future references and usage.
+# Features and Capabilities
+-Can order cakes and pastries via PC and mobile website.
+
+-Give the consumer an everyday trivia about the products and shops.
+
+-Every shop located at Siniloan,Laguna up to Infanta,Quezon can join or register their shop to boost their popularity.
+
+-Customer can sign in and log in everytime they want to make an order.
+
+-Can store data for future references and usage.
